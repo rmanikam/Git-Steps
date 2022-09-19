@@ -1,0 +1,18 @@
+How to add an existing project to GitHub – using the command line
+
+1) First you have to create a new repository on Github
+
+2) Initialize the local directory as a Git repository
+   git init
+
+3) Add the files in your new local repository. This stages them for the first commit
+   git add . 
+
+4) Commit the files that you’ve staged in your local repository
+   git commit -m “First commit”
+
+5) Add the URL for the remote repository where your local repository will be pushed
+   git remote add origin <your remote repository URL>
+
+6) Push the changes in your local repository to GitHub
+   git push origin master
